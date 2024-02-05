@@ -114,6 +114,12 @@ nav a {
   border-bottom: 1px solid #555;
 }
 
+.col25 a {
+  width: max-content;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
 /* Style active link */
 nav a.active {
   background-color: #555;
