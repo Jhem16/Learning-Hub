@@ -1,0 +1,46 @@
+{% if this.page.title == 'About Me'%}
+    {% component 'banner' %}
+{% elseif this.page.title == 'Our Mission' %}
+    {% component 'banner2' %}
+{% elseif this.page.title == 'Iridescent Care Management' %}
+    {% component 'banner3' %}
+{% elseif this.page.title == 'Payee Services' %}
+    {% component 'banner4' %}
+{% elseif this.page.title == 'Guardianship' %}
+    {% component 'banner5' %}
+{% elseif this.page.title == 'Maternal Infant Health Program (MIHP)' %} 
+    {% component 'banner6' %}
+{% elseif this.page.title == 'Addiction Counseling' %}
+    {% component 'banner7' %}
+{% elseif this.page.title == 'Coaching' %}
+    {% component 'banner8' %}
+{% elseif this.page.title == "Health Coaching" %}
+    {% component 'banner9' %}
+{% elseif this.page.title == 'Divorce Coaching' %}
+    {% component 'banner10' %}
+{% elseif this.page.title == 'What We Offer' %}
+    {% component 'banner11' %}
+{% elseif this.page.title == 'Appointment Process' %}
+    {% component 'banner14' %}
+{% elseif this.page.title == 'Clients' %}
+    {% component 'banner13' %}
+{% elseif this.page.title == 'Representative Payee' %}
+    {% component 'banner15' %}
+{% elseif this.page.title == 'Frequently Asked Questions' %}
+    {% component 'banner16' %}
+{% elseif this.page.title == 'Contact Us' %}
+    {% component 'banner17' %}
+{% elseif this.page.title == 'Services' %}
+    {% component 'banner18' %}
+{% elseif this.page.title == 'FAQ' %}
+    {% component 'banner19' %}
+{% elseif this.page.title == 'Healthcare Solutions' %}
+    {% component 'banner20' %}
+    {% elseif this.page.title == 'About' %}
+    {% component 'banner21' %}
+   
+
+    {# {% elseif this.page.title == 'pagetitle' %} add if need more
+    {% component 'component' %} #}
+
+{% endif %}
